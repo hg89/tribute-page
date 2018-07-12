@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-color: #736cb2;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+img {
+    height: 200px;
+}
+
+footer {
+    background-color: #352f66;
+    padding: 20px 10px;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+#title {
+    background-color: #2b2456;
+    padding: 5px;
+}
+
+#img-div {
+    padding: 20px;
+}
+
+#img-caption {
+    padding: 10px;
+}
+
+#tribute-info {
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: left;
+}
