@@ -1,39 +1,125 @@
-body {
-    text-align: center;
-    background-color: #736cb2;
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
-    color: #fff;
+}
+
+html {
+    font-size: 62.5%;
+    size: 100%;
+}
+
+body {
+    width: 100%;
+    font-size: 1.6rem;
+    text-align: center;
+    background-color: #998fc7;
+    margin: 0;
+    padding: 0;
+    color: #28262c;
 }
 
 img {
-    height: 200px;
+    max-width: 100%;
+    /* display: block; */
+    height: auto;
+    width: 45rem;
+    border: 0.2rem solid orangered;
+    border-radius: 0.75rem;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#no-border {
+    border: none;
+    box-shadow: none;
 }
 
 footer {
+    color: white;
+    max-width: 100%;
     background-color: #352f66;
-    padding: 20px 10px;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
 }
 
-a:visited {
-    text-decoration: none;
+h2,
+h3 {
+    padding: 2rem;
+}
+
+p {
+    font-size: 1.7rem;
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.box-container-top {
+    display: flex;
+    width: 100%;
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 0;
+}
+
+.box-container-bottom {
+    display: flex;
+    width: 100%;
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 0;
+}
+
+.box-1 {
+    width: 40%;
+    height: 50%;
+}
+
+.box-2 {
+    width: 40%;
+    height: 50%;
+}
+
+.model {
+    padding: 2.5rem;
+}
+
+#main {
+    width: 100%;
 }
 
 #title {
-    background-color: #2b2456;
-    padding: 5px;
+    background-color: #352f66;
+    color: white;
+    padding: 2rem;
+}
+
+#image {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 #img-div {
-    padding: 20px;
-}
-
-#img-caption {
-    padding: 10px;
+    max-width: 100%;
+    padding: 2rem;
+    color: #e7e2eb;
 }
 
 #tribute-info {
-    max-width: 550px;
-    margin: 0 auto;
-    text-align: left;
+    background-color: #d4c2fc;
+    padding: 1rem 0;
+}
+
+#tribute-link {
+    color: orangered;
+    text-decoration: none;
+}
+
+#last-p {
+    margin-bottom: 1.5rem;
 }
